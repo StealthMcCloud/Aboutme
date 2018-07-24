@@ -1,8 +1,35 @@
 body {
     text-align: center;
+    background-color: tan;
 }
 
 nav {
     float: right;
 }
 
+.img1 {
+width: 300px;
+height: 400px;
+float: right;
+}
+
+.img2 {
+width: 50px;
+height: 50px;
+    float: right;
+}
+
+.box1 {
+background-color: black;
+color: white;
+}
+
+.box2 {
+    text-align: left;
+    margin-top: 100px;
+}
+
+p {
+    border: 2px solid rgba(234, 240, 185, 0.466);
+    text-align: left;
+}
