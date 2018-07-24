@@ -6,6 +6,13 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+h1 {
+float: left;
+}
+ section {
+     float: left;
+ }
+
 /* Header */
 
 nav {
@@ -18,19 +25,31 @@ nav {
     height: 200px;
 }
 
+.box2 {
+    border: 1px solid black;
+    margin-top: 50px;
+    width: 350px;
+    float: left;
+}
+
+.box3 {
+    border: 1px solid black;
+    margin-top: 50px;
+    width: 350px;
+    float: right;
+}
+
 .img1 {
     float: right;
     height: 200px;
     width: 200px;
-    position: relative;
-    margin: -50px 0px -50px 0px;
 }
 
 .button1, .button2, .button3, .button4 {
     background-color: rgb(211, 209, 209);
     border: none;
     color: blue;
-    padding: 5px 10px;
+    padding: 5px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -38,6 +57,8 @@ nav {
     position: relative;
     border-radius: 2px;
     box-shadow: 0 3px gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
 }
 
 .button1:hover, .button2:hover, .button3:hover, .button4:hover {
