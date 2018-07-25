@@ -69,6 +69,7 @@ section {
 
 .button1:hover, .button2:hover, .button3:hover, .button4:hover {
     background-color: gray;
+    color: red;
     }
     
     .button1:active, .button2:active, .button3:active, .button4:active {
